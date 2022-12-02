@@ -58,29 +58,42 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  - niet gebruik maken van id en class (niet semantisch)
+  - cursor is niet hoognodig
+  - img kan beter in eigen container (use flex-wrap, flex-base, width) padding op article
+  
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - lijn tussen categorieen wordt opgelezen door screenreader
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - list item in css doorgeven zodat het niet wordt opgelezen of de hele lijn eruit halen
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - de website is eenvoudig te besturen door de grote afbeeldingen en grote iconen. Ook wordt de kleur opgelezen door de screenreader 
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - de website kan gebruikt worden met motorische moeilijkheden
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)  
+  - door gegevens op te slaan en autofill te gebruiken, is typen eventueel overbodig (account aanmaken)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - De kleur wordt beschreven met meerdere woorden. Er zou kunnen worden gedefinieerd wat 'marl' bijvoorbeeld betekend. 
+  - De patronen worden wel duidelijk benoemd (adapt animal), maar zouden misschien nog duidelijker mogen
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - Duidelijkere kleuren noemen 
+  - Duidelijker de patronen benoemen
 
 </details>
 
