@@ -129,6 +129,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - de basis opbouw van de website ging vrij makkelijk. De SVG's waren toegevoegd en de styling was goed in CSS over te nemen
+  
+  - de banner was nog niet helemaal goed (styling)
+  - de articles staan nog niet naast elkaar
+  - de categorieen missen nog
+  - de footer mist nog
+  - de svg's in de navbar hebben nog niet de goede styling
 
 
   ### Agenda voor meeting
@@ -138,16 +145,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe kan ik die | ...                | ...          | ...              |
+  | navbar kloppend|
+  | maken en de    |
+  |aricles onder   |
+  |elkaar plaatsen?|
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - 1x h1 gebruiken
+  - meerdere ul in nav 1
+  - GEEN id, div of class!!!
+  - end of types 
+  - remake code breakdown
+  - cursor = niet nodig
 
 </details>
 
@@ -162,6 +175,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - De articles hebben nog niet de juiste styling 
+(tip van Robert: [24/11 22:08] Robert Spier
+Even kijken, ik zou die articles samen in een section zetten
+
+[24/11 22:08] Robert Spier
+Daar een body voor gebruiken is lastig voor de rest van je pagina
+
+[24/11 22:09] Robert Spier
+De section heeft vervolgens een display: flex nodig, zonder flex wrap, want daarmee laat je ze naast elkaar staan
+
+[24/11 22:09] Robert Spier
+De afbeeldingen zorgen ervoor dat de images te groot worden denk ik, dus als ze na deze regels css nog niet naast welkaar zijn kun je de article een flex-basis: 50% geven
+)
 
 
   ### Agenda voor meeting
@@ -177,10 +203,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - nav header meerdere ul gebruiken?
+  - styling capslock h1+h2 in css stylen
+  - class weg, end of type terug!!
+  - img onderaan (screenreader) gebruik order om de styling weer te fixen in css (max width op img)
+  - head pagina 2 wijzigen (meta)
+  
+  Todo:
+  - nav doorsturen naar Yara (waarom is de banner niet over de hele site?)
+  - Github updaten
 
 </details>
 
