@@ -90,6 +90,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier korte omschrijving (met indien nodig afbeeldingen)
   - De kleur wordt beschreven met meerdere woorden. Er zou kunnen worden gedefinieerd wat 'marl' bijvoorbeeld betekend. 
   - De patronen worden wel duidelijk benoemd (adapt animal), maar zouden misschien nog duidelijker mogen
+  - Wat Gymshark wel heel goed doet, is dat zij opties geven om 2 producten naast elkaar te laten zien, maar je kan ook kiezen of je 1 groot product op het scherm wilt weergeven
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   - Duidelijkere kleuren noemen 
