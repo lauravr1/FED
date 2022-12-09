@@ -318,8 +318,9 @@ De afbeeldingen zorgen ervoor dat de images te groot worden denk ik, dus als ze 
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. [bron 1](https://nl.gymshark.com/)
+  2. [bron 2](https://nl.gymshark.com/collections/new-releases/womens)
+  3. [bron 3](https://validator.w3.org)
+  4. bron 4
 
 </details>
