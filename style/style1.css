@@ -1,0 +1,640 @@
+/* ===================================
+============   for all  ==============
+====================================== */
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ===================================
+============   header time  ==========
+====================================== */
+
+header {
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+header nav:first-of-type {
+    display: block;
+}
+
+
+/* phone */
+
+header nav:first-of-type ul {
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav:first-of-type ul li:nth-of-type(1) img {
+    width: 2em;
+    padding: 1em;
+}
+
+header nav:first-of-type ul li:nth-of-type(2) img {
+    width: 4em;
+    padding: 1em;
+}
+
+header nav:first-of-type ul li:nth-of-type(3) img {
+    width: 2em;
+    padding: 1em;
+}
+
+header nav:first-of-type ul li:nth-of-type(3) img:nth-of-type(2) {
+    width: 1.6em;
+    padding: 1em;
+}
+
+
+/* ===================================
+=======   header time desktop  =======
+====================================== */
+
+header nav:nth-of-type(2) {
+    display: none;
+}
+
+
+/* desktop */
+
+header nav:nth-of-type(2) ul li:nth-of-type(1) img {
+    width: 4em;
+}
+
+header nav:nth-of-type(2) ul li:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav:nth-of-type(2) ul li:nth-of-type(2) a {
+    font-size: 2em;
+    position: relative;
+    color: rgb(0, 0, 0);
+    padding: 2rem 0px;
+    margin: 0px 2.5rem;
+    transition: color 0.15s ease 0s;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header nav:nth-of-type(2) ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+header nav:nth-of-type(2) ul li:nth-of-type(3) img {
+    padding: .1em;
+}
+
+
+/* ===================================
+============   mi ma main  ===========
+=================================== */
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    padding-top: 10em;
+}
+
+
+/* ===================================
+============   titeltekst  ===========
+=================================== */
+
+main section:nth-of-type(1) {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    background: 0% 0% / cover rgb(245, 245, 245);
+    padding: 3.2rem;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+main section:nth-of-type(1) h1 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-weight: 700;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+main section:nth-of-type(1) h2 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    line-height: 1.1;
+}
+
+
+/* =======================================
+==========   filter&sorteer  =============
+======================================= */
+
+main nav:nth-of-type(1) {
+    display: flex;
+    flex-direction: row;
+    margin-left: .2vp;
+}
+
+main nav:nth-of-type(1) img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main nav:nth-of-type(1) p {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+
+/* =======================================
+===========   categorieen  ===============
+======================================= */
+
+main nav:nth-of-type(2) {
+    position: sticky;
+    top: 3em;
+}
+
+main nav:nth-of-type(2) article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.4rem;
+    overflow-x: scroll;
+}
+
+main nav:nth-of-type(2) button {
+    flex-shrink: 0;
+    padding: 1rem 2rem 0.5rem;
+    color: rgb(110, 110, 110);
+    background-color: white;
+    border: 0;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main nav:nth-of-type(2) button:hover {
+    color: rgb(0, 0, 0);
+}
+
+main nav:nth-of-type(2) article button:nth-of-type(1) {
+    color: black;
+    border-bottom: 0.2em solid black;
+}
+
+
+/* =======================================
+=======   hier staan de producten  =======
+======================================= */
+
+main section:nth-of-type(2) {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: start;
+    width: 100%;
+}
+
+main section:nth-of-type(2) article {
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 1em;
+}
+
+main section:nth-of-type(2) article img {
+    order: 1;
+    width: 100%;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(1) {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 700;
+    -webkit-box-align: center;
+    text-transform: uppercase;
+    margin: 1 0 0.5rem;
+    color: rgb(191, 46, 53);
+    order: 2;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(2) {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(68, 68, 68);
+    margin: 0 0 0.2rem;
+    padding-right: 0;
+    text-transform: capitalize;
+    order: 3;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(3) {
+    font-size: 1.4rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 2.1rem;
+    color: rgb(110, 110, 110);
+    order: 4;
+}
+
+main section:nth-of-type(2) article div {
+    display: flex;
+    order: 5;
+    /* LET OP! ik heb div approvement van Yara cus positioning enzo <3 */
+}
+
+main section:nth-of-type(2) article div p:nth-of-type(1) {
+    font-weight: 700;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: rgb(0, 0, 0);
+    margin-right: 1em;
+}
+
+main section:nth-of-type(2) article div p:nth-of-type(2) {
+    vertical-align: top;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: rgb(191, 46, 53);
+    text-decoration: line-through;
+}
+
+
+/* =======================================
+==========   meer producten   ============
+======================================= */
+
+main article {
+    display: flex;
+    flex-direction: column;
+}
+
+main .meer button:nth-of-type(1) {
+    position: relative;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.05rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    font-weight: 700;
+    outline: none;
+    border: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 12em;
+    display: flex;
+    align-self: center;
+}
+
+main .meer button:nth-of-type(2) {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin-top: 1.5rem;
+}
+
+main .meer h3 {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: rgb(68, 68, 68);
+    margin: 1.5rem 0px 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ===================================
+============   chatfunctie  ===========
+=================================== */
+
+main aside {
+    background-color: black;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+main aside button img {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.05rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    padding: .5em 1em;
+    font-weight: 700;
+    outline: none;
+    border: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 3em;
+}
+
+
+/* =======================================
+====   footer, schrijf je in <p>  ========
+======================================= */
+
+footer {
+    width: 100%;
+}
+
+footer section:nth-of-type(1) {
+    background: #000;
+    color: #fff;
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer section:nth-of-type(1) p {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+footer section:nth-of-type(1) button {
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* =======================================
+==============   mijn account  ===========
+======================================= */
+
+footer aside a:nth-of-type(1) {
+    background-color: rgb(83, 86, 90);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer a img:nth-of-type(1) {
+    filter: invert(100%);
+    padding: 1em;
+}
+
+
+/* =======================================
+===   help/paginas/meer van gymshark  ====
+======================================= */
+
+footer section:nth-of-type(2) article {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 1px solid #d7d7d7;
+}
+
+footer section:nth-of-type(2) h2 {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    position: relative;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-left: 1em;
+}
+
+footer section:nth-of-type(2) h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    font-weight: normal;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+}
+
+
+/* =======================================
+===   3 onderste blocks (blog etc)  ======
+======================================= */
+
+footer section:nth-of-type(3) {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+footer section:nth-of-type(3) article {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+footer section:nth-of-type(3) img {
+    filter: invert(0%);
+    width: 100%;
+}
+
+footer section:nth-of-type(3) a {
+    background-color: #d7d7d7;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer section:nth-of-type(4) {
+    display: flex;
+    justify-content: center;
+}
+
+footer section:nth-of-type(4) img {
+    filter: invert(0%);
+}
+
+
+/* =======================================
+===========   language  ==================
+======================================= */
+
+footer section:nth-of-type(5) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+footer section:nth-of-type(5) img {
+    width: 2em;
+}
+
+footer section:nth-of-type(5) p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2em;
+}
+
+
+/* =======================================
+===========   media query nav  ===========
+======================================= */
+
+@media screen and (min-width: 700px) {
+    header nav:first-of-type {
+        display: none;
+    }
+    /* phone */
+    header nav:nth-of-type(2) {
+        display: block;
+    }
+    /* desktop */
+}
+
+
+/* =======================================
+=============   nav logo  ===============
+======================================= */
+
+@media screen and (max-width: 700px) {
+    header nav:nth-of-type(2) ul li:nth-of-type(1) img {
+        width: 4em;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 900px) {
+    header nav:nth-of-type(2) ul li:nth-of-type(1) img {
+        width: 5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header nav:nth-of-type(2) ul li:nth-of-type(1) img {
+        width: 6em;
+    }
+}
+
+
+/* =======================================
+=============   nav icons  ===============
+======================================= */
+
+@media screen and (max-width: 700px) {
+    header nav:nth-of-type(2) ul li:nth-of-type(3) img {
+        width: 1em;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 900px) {
+    header nav:nth-of-type(2) ul li:nth-of-type(3) img {
+        width: 2em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header nav:nth-of-type(2) ul li:nth-of-type(3) img {
+        width: 3em;
+        padding: .4em;
+    }
+}
+
+
+/* =======================================
+=============   footer  ==================
+======================================= */
+
+@media screen and (max-width: 700px) {
+    footer section:nth-of-type(3) article a {
+        font-size: 1em;
+        padding: .5em;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 900px) {
+    footer section:nth-of-type(3) article a {
+        font-size: 1.5em;
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    footer section:nth-of-type(3) article a {
+        font-size: 2em;
+        padding: 1.5em;
+    }
+}
