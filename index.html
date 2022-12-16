@@ -6,7 +6,7 @@
     <meta name="author" content="Laura van Rooijen">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style1.css">
     <title>Black Friday Sale Nu Live | Tot 60% korting!</title>
 </head>
 
@@ -14,14 +14,15 @@
 
     <header>
         <nav>
-            <!-- moet nog sticky? worden -->
             <ul>
                 <!-- code inspected from https://nl.gymshark.com/ , er gaat iets nog niet helemaal goed met de shopping cart en het hamburger menu...-->
+                <!-- phone navbar -->
                 <li>
                     <img src="images/hamburgerIcon.svg" alt="hamburger icon">
                     <img src="images/searchIcon.svg" alt="search icon">
                 </li>
-                <li><img src="images/logo.svg" alt="logo">
+                <li>
+                    <a href="/Users/lauravanrooijen/Documents/Blok 2/Front-end dev/gymshark/homepage.html"><img src="images/logo.svg" alt="logo"></a>
                     <!-- logo moet groter dan andere imgs in navbar, mag id gebruikt worden? -->
                 </li>
                 <li><img src="images/wishlistIcon.svg" alt="wishlist icon">
@@ -29,6 +30,30 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- desktop navbar -->
+        <nav>
+            <ul>
+                <!-- code inspected from https://nl.gymshark.com/ , er gaat iets nog niet helemaal goed met de shopping cart en het hamburger menu...-->
+                <li>
+                    <a href="/Users/lauravanrooijen/Documents/Blok 2/Front-end dev/gymshark/homepage.html"><img src="images/logo.svg" alt="logo"></a>
+                    <!-- logo moet groter dan andere imgs in navbar, mag id gebruikt worden? -->
+                </li>
+                <li>
+                    <a>dames</a>
+                    <a>heren</a>
+                    <a>sale</a>
+                </li>
+                <li>
+                    <img src="images/searchIcon.svg" alt="search icon">
+                    <img src="images/profile.svg" alt="profile icon">
+                    <img src="images/wishlistIcon.svg" alt="wishlist icon">
+                    <img src="images/shoppingcartIcon.svg" alt="shopping cart icon">
+
+                </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
@@ -39,22 +64,24 @@
 
         <nav>
             <p>filteren & sorteren</p>
-            <button><img src="images/singleView.svg" alt="single view"></button>
-            <button><img src="images/columnView.svg" alt="column view"></button>
+            <img src="images/singleView.svg" alt="single view">
+            <img src="images/columnView.svg" alt="column view">
             <!-- moet nog sticky? worden -->
         </nav>
 
 
         <nav>
-            <button>alle</button>
-            <button>t-shirt</button>
-            <button>leggings</button>
-            <button>sportbeha's</button>
-            <button>hoodies</button>
-            <button>ondergoed</button>
-            <button>sweaters</button>
-            <button>korte broeken</button>
-            <button>croptops</button>
+            <article>
+                <button>alle</button>
+                <button>t-shirt</button>
+                <button>leggings</button>
+                <button>sportbeha's</button>
+                <button>hoodies</button>
+                <button>ondergoed</button>
+                <button>sweaters</button>
+                <button>korte broeken</button>
+                <button>croptops</button>
+            </article>
         </nav>
 
         <section>
@@ -104,21 +131,79 @@
 
             </article>
 
-            <button>meer laden</button>
-            <button>bekijk alles</button>
-            <p>Toont 1-4 van de 157 producten</p>
-
-
-
         </section>
 
+
+
+        <article class="meer">
+            <button>meer laden</button>
+            <button>bekijk alles</button>
+            <h3>Toont 1-4 van de 157 producten</h3>
+        </article>
+
+        <aside>
+            <button><img src="images/chaticon.png" alt="chat"></button>
+        </aside>
     </main>
 
     <footer>
+        <section>
+            <p>Schrijf je in en ontvang eenmalig 10% korting</p>
+            <button>schrijf je in</button>
+            <!-- deze button moet in het midden, flex werkt niet -->
+        </section>
 
+        <aside>
+            <a>mijn account<img src="images/mijnaccount.svg"></a>
+        </aside>
+
+        <section>
+            <article>
+                <h2>help</h2>
+                <h3>+</h3>
+            </article>
+
+            <article>
+                <h2>pagina's</h2>
+                <h3>+</h3>
+            </article>
+
+            <article>
+                <h2>meer van gymshark</h2>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <img src="images/blogimage.jpeg" alt="blog">
+                <a>blog</a>
+            </article>
+            <article>
+                <img src="images/mailsignup.jpeg" alt="sign up">
+                <a>e-mail signup</a>
+            </article>
+            <article>
+                <img src="images/gymsharktraining.jpeg" alt="training">
+                <a>gymshark training</a>
+            </article>
+        </section>
+
+
+        <section>
+            <a href="https://discord.gg/gymshark"><img src="images/social.discord.svg" alt="discord"></a>
+            <a href="https://www.facebook.com/GymShark"><img src="images/social.facebook.svg" alt="facebook"></a>
+            <a href="https://www.pinterest.com/gymshark"><img src="images/social.pinterest.svg" alt="pinterest"></a>
+            <a href="index.html"><img src="images/social.youtube.svg" alt="youtube"></a>
+            <!-- <a href="index.html"><img src="images/social.instagram.svg" alt="instagram"></a> -->
+            <!-- tijd over: images instagram als newsblock? -->
+            <a href="index.html"><img src="images/social.tiktok.svg" alt="tiktok"></a>
+        </section>
+
+        <section>
+            <p><img src="images/netherlands.svg">The Netherlands</p>
+        </section>
 
     </footer>
-
 </body>
 
 </html>
