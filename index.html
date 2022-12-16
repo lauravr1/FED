@@ -11,13 +11,14 @@
 </head>
 
 <body>
+    <script src="style/script.js"></script>
 
     <header>
         <nav>
             <ul>
                 <!-- code inspected from https://nl.gymshark.com/ , er gaat iets nog niet helemaal goed met de shopping cart en het hamburger menu...-->
                 <!-- phone navbar -->
-                <li>
+                <li id="slideoutClose" onclick="slideoutClose()">
                     <img src="images/hamburgerIcon.svg" alt="hamburger icon">
                     <img src="images/searchIcon.svg" alt="search icon">
                 </li>
@@ -29,6 +30,31 @@
                     <img src="images/shoppingcartIcon.svg" alt="shopping cart icon">
                 </li>
             </ul>
+            <div id="slideoutOpen" style="width: 100%; height: 100vh; display: none; z-index: 1000;">
+                <ul>
+                    <li>
+                        <h1>trending</h1>
+                        <h2>alle dames sale</h2>
+                        <h2>cadeaus voor haar</h2>
+                        <h2>cadeaus onder €30</h2>
+                        <h2>cadeaus onder €60</h2>
+                        <h2>must-haves</h2>
+                        <h2>rustdag</h2>
+                        <h2>digitale cadeaukaart</h2>
+                    </li>
+                    <li>
+                        <h1>producten</h1>
+                        <h2>nieuw</h2>
+                        <h2>alle producten</h2>
+                        <h2>leggings</h2>
+                        <h2>korte broeken</h2>
+                        <h2>sportbeha's</h2>
+                        <h2>croptops</h2>
+                        <h2>t-shirts</h2>
+                        <h2>tanktops</h2>
+                        <h2>hoodies & jassen</h2>
+                    </li>
+                </ul>
         </nav>
 
         <!-- desktop navbar -->
